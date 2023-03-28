@@ -1,4 +1,4 @@
-## Persistence via Startup 
+## Shikata Ga Clown Persistence
 
 ### IMPORTANT
 This repo contains live malware, do not run the malware on your own machine. The payload will self-replicate onto the host's Startup folder to simulate persistence.
