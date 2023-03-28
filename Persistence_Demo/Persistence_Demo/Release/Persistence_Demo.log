@@ -4,4 +4,4 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.3221
   Previous IPDB not found, fall back to full compilation.
   All 226 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  Persistence_Demo.vcxproj -> C:\Users\PC\Desktop\dev\Gryphons\Persistence_Demo\Release\Persistence_Demo.exe
+  Persistence_Demo.vcxproj -> C:\Users\PC\Desktop\dev\maldev\Persistence_Demo\Release\Persistence_Demo.exe
