@@ -50,7 +50,7 @@ int main(int argc, const char *argv[])
     int PID = Locate("notepad.exe");
 
     if (PID == 0) {
-        print("FAiled to locate process")
+        print("Failed to locate process")
 		return 0;
 	}
     
