@@ -1,3 +1,0 @@
-﻿  main.c
-C:\Users\PC\Desktop\dev\Shitty-Dropper\Shitty-Dropper\Shitty-Dropper\main.c(77,20): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
-  Shitty-Dropper.vcxproj -> C:\Users\PC\Desktop\dev\Shitty-Dropper\Shitty-Dropper\Shitty-Dropper\x64\Debug\process_injection.exe

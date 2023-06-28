@@ -1,7 +1,0 @@
-﻿  Source.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 226 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Persistence_Demo.vcxproj -> C:\Users\PC\Desktop\dev\maldev\Persistence_Demo\Release\Persistence_Demo.exe
