@@ -1,5 +1,0 @@
-## Clown Injection using CreateRemoteThread (C++)
-
-As a clown, I've seen some pretty strange things in my time. But nothing quite compares to the day I stumbled upon a room filled with skulls. At first, I was terrified, thinking I had stumbled upon some kind of haunted house. But as I looked closer, I realized that these were not just any skulls – they were clown skulls. It turns out that the clown community has a long-standing tradition of collecting and displaying the skulls of fallen comrades as a way of honoring their memory. It may seem macabre to outsiders, but to us clowns, it is a way of keeping the spirit of our fellow performers alive. And who knows, maybe one day my own skull will join the collection, a reminder to future generations of the joy and laughter that clowns can bring to the world.
-
-The script injects shellcode into a remote process using CreateRemoteThread when provided with a process name, the shellcode is also accessed from an external file, this is very TBD and was just a quick script I wrote to test out the concept.
